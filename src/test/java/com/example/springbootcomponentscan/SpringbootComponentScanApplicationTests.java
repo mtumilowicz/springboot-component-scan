@@ -19,8 +19,9 @@ public class SpringbootComponentScanApplicationTests {
 
     @Test
     public void contextLoads() {
-        assertTrue(context.containsBeanDefinition("XXX"));
-        assertFalse(context.containsBeanDefinition("YYY"));
+        assertTrue(context.containsBeanDefinition("insider"));
+        
+        assertFalse(context.containsBeanDefinition("non existing package"));
 
         assertTrue(context.containsBeanDefinition("outsider"));
     }

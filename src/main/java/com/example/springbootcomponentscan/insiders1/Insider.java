@@ -1,4 +1,4 @@
-package com.example.springbootcomponentscan.bean1;
+package com.example.springbootcomponentscan.insiders1;
 
 import org.springframework.stereotype.Component;
 
@@ -6,5 +6,5 @@ import org.springframework.stereotype.Component;
  * Created by mtumilowicz on 2018-11-15.
  */
 @Component
-public class XXX {
+public class Insider {
 }
