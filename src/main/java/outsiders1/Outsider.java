@@ -1,4 +1,4 @@
-package bean2;
+package outsiders1;
 
 import org.springframework.stereotype.Component;
 
