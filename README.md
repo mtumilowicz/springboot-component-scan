@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/springboot-component-scan.svg?token=PwyvjePQ7aiAX51hSYLE&branch=master)](https://travis-ci.com/mtumilowicz/springboot-component-scan)
+
 # springboot-component-scan
 Overview of basic features of `@ComponentScan`
 
