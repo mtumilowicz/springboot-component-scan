@@ -21,6 +21,8 @@ public class SpringbootComponentScanApplicationTests {
     public void contextLoads() {
         assertTrue(context.containsBeanDefinition("XXX"));
         assertFalse(context.containsBeanDefinition("YYY"));
+
+        assertTrue(context.containsBeanDefinition("XXX2"));
     }
 
 }

@@ -1,4 +1,4 @@
-package com.example.springbootcomponentscan.beans;
+package com.example.springbootcomponentscan.bean1;
 
 import org.springframework.stereotype.Component;
 
