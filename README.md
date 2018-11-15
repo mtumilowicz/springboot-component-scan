@@ -14,7 +14,9 @@ In this project:
         * `@Component`: `Insider` class
 * **outside main package**: `outsiders1`
     * `@Component`: `Outsider` class
+    
 we have two options:
+
 * not type safe
     ```
     @ComponentScan(basePackages = {"com.example.springbootcomponentscan", 
