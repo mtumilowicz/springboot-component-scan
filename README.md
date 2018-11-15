@@ -8,14 +8,17 @@ is scanned in search of beans.
 
 Sometimes we want to scan packages outside the main package. 
 # project description
+
+### structure
 In this project:
 * **main package**: `com.example.springbootcomponentscan`
     * **inner package**: `com.example.springbootcomponentscan.insiders1`
         * `@Component`: `Insider` class
 * **outside main package**: `outsiders1`
     * `@Component`: `Outsider` class
-    
-we have two options:
+
+### solution
+We have two options:
 
 * not type safe
     ```
