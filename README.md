@@ -6,7 +6,7 @@ Overview of basic features of `@ComponentScan`
 # preface
 By default in spring boot applications the main package 
 (package where the `@SpringBootApplication` is defined)
-is scanned in search of beans.
+is scanned in search of components.
 
 Sometimes we want to scan packages outside the main package. 
 # project description
