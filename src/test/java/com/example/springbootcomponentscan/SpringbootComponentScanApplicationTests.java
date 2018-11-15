@@ -22,7 +22,7 @@ public class SpringbootComponentScanApplicationTests {
         assertTrue(context.containsBeanDefinition("XXX"));
         assertFalse(context.containsBeanDefinition("YYY"));
 
-        assertTrue(context.containsBeanDefinition("XXX2"));
+        assertTrue(context.containsBeanDefinition("outsider"));
     }
 
 }
