@@ -6,9 +6,8 @@ By default in spring boot applications the main package
 (package where the `@SpringBootApplication` is defined)
 is scanned in search of beans.
 
-# project description
 Sometimes we want to scan packages outside the main package. 
-
+# project description
 In this project:
 * **main package**: `com.example.springbootcomponentscan`
     * **inner package**: `com.example.springbootcomponentscan.insiders1`
